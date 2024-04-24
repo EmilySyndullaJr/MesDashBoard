@@ -1,0 +1,141 @@
+:root {
+  --background-color: #191724; /* Dark background */
+  --text-color: #e6e1cf; /* Light text */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://github.com/rose-pine/wallpapers/raw/main/rose_pine_shape.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--background-color); /* Dark bg */
+  color: var(--text-color); /* Light text */
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--container-bg-color);
+  border-radius: 10px;
+  background-image: url('https://github.com/rose-pine/wallpapers/raw/main/blockwavemoon.png');
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
+  align-items: center; /* Center children horizontally */
+}
+
+
+nav {
+  text-align: center; /* Center links horizontally */
+}
+
+nav h2 {
+  text-align: center;
+  color: var(--text-color); /* Light text */
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center links */
+}
+
+nav ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  color: var(--text-color); /* Light text */
+  text-decoration: none;
+  font-size: 18px;
+  /* Add background color and padding to improve readability */
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px; /* Add some border radius for better appearance */
+}
+
+nav ul li a:hover {
+  /* Increase opacity on hover for better visibility */
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.main-content {
+  width: 100%; /* Make sure it takes the full width */
+  max-width: 400px; /* Limit the width of the main content */
+}
+
+.profile-pic-container {
+  position: absolute;
+  top: 20px; /* Adjust top spacing */
+  left: 20px; /* Adjust left spacing */
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 80px; /* Reduced size */
+  height: 80px; /* Reduced size */
+  border-radius: 50%;
+  /* Retro: shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.profile-name {
+  margin-left: 10px; /* Adjust spacing between profile pic and name */
+  color: var(--text-color); /* Light text */
+}
+
+.container {
+  position: relative;
+}
+
+.main-content {
+  margin-top: 120px; /* Adjust top spacing */
+  text-align: center; /* Center headers */
+}
+
+
+.sticky-note-container {
+  background-color: var(--container-bg-color); /* Container bg */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sticky-note {
+  width: calc(100% - 20px); /* Adjust width */
+  height: 150px; /* Adjust height */
+  padding: 10px;
+  border-radius: 5px;
+  resize: none; /* Disable resizing */
+  overflow: auto; /* Enable scrolling */
+  background-color: var(--background-color); /* Dark bg */
+  color: var(--text-color); /* Light text */
+  font-size: 16px; /* Increase font size */
+  /* Retro: subtle gradient */
+  background-image: linear-gradient(45deg, #575279 0%, #2a2734 100%);
+  /* Retro: shadow */
+  border: none; /* Remove border */
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #45a049; /* Darker green */
+}
